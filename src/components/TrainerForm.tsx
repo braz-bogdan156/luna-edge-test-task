@@ -80,7 +80,10 @@ const TrainerForm: React.FC = () => {
           control={control}
         />
       )}
-      <button type="submit" className="bg-violet text-white p-3 rounded-md mt-2">
+     <button
+        type="submit"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-2 transition duration-300"
+      >
         Submit
       </button>
       <ModalWindow active={isModalActive} setActive={setIsModalActive}>
