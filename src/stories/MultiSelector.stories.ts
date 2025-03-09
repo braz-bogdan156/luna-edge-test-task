@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import MultiSelector from "../components/MultiSelector";
+import MultiSelector from "../components/PokemonSelect";
 
 const meta = {
     title: 'Component/MultiSelector',

@@ -1,6 +1,6 @@
 import {ModalProps} from "../../types";
 
-const Modal = ({active, setActive, children}:ModalProps) => {
+const ModalWindow = ({active, setActive, children}:ModalProps) => {
     return (
         <div
             className={`w-screen h-screen bg-black/40 fixed top-0 left-0
@@ -18,4 +18,4 @@ const Modal = ({active, setActive, children}:ModalProps) => {
     );
 };
 
-export default Modal;
+export default ModalWindow;

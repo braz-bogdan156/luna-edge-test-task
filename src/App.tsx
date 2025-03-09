@@ -1,12 +1,11 @@
-import PokemonForm from "./components/PokemonForm";
+import TrainerForm from "./components/TrainerForm";
 
 function App() {
-
   return (
     <main className="flex items-center justify-center h-screen">
-        <PokemonForm/>
+        <TrainerForm/>
     </main>
   )
 }
 
-export default App
+export default App;

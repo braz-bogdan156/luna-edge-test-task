@@ -1,6 +1,6 @@
 import {CustomInputProps} from "../../types";
 
-const CustomInput = ({ label, name, register, required, pattern, error }: CustomInputProps) => {
+const TextInput = ({ label, name, register, required, pattern, error }: CustomInputProps) => {
 
     return (
         <div className="mt-2">
@@ -17,4 +17,4 @@ const CustomInput = ({ label, name, register, required, pattern, error }: Custom
         </div>
     );
 }
-export default CustomInput
+export default TextInput;
